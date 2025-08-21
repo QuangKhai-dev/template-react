@@ -4,6 +4,8 @@ import HomePage from "../pages/homePage/HomePage";
 import ProductDetail from "../pages/productDetail/ProductDetail";
 import UserTemplate from "../templates/userTemplate/UserTemplate";
 import NotFound from "../components/NotFound/NotFound";
+import PhuKien from "../pages/phuKien/PhuKien";
+import BaiTapLacXiNgau from "../pages/baiTapLacXiNgau/BaiTapLacXiNgau";
 
 const useRoutesCustom = () => {
   // trang chủ - chi tiết sản phẩm
@@ -20,6 +22,14 @@ const useRoutesCustom = () => {
           path: PATH_APP.productDetail,
           element: <ProductDetail />,
         },
+        {
+          path: "phu-kien",
+          element: <PhuKien />
+        },
+        {
+          path: "bai-tap-lac-xi-ngau",
+          element: <BaiTapLacXiNgau />
+        }
       ],
     },
     {

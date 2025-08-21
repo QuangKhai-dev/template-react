@@ -1,0 +1,60 @@
+@font-face {
+  src: url("./Pony.ttf");
+  font-family: "Pony";
+}
+
+.bai-tap-xi-ngau {
+  font-family: "Pony", serif;
+  background-image: url("./bgGame.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.bai-tap-xi-ngau h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.bai-tap-xi-ngau .btn-luachon {
+  font-family: "Pony", serif;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  border-radius: 12px;
+}
+
+.bai-tap-xi-ngau .luachon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bai-tap-xi-ngau img {
+  width: 100px;
+}
+
+.bai-tap-xi-ngau .thong-tin-tro-choi {
+  text-align: center;
+  font-size: 30px;
+}
+
+.bai-tap-xi-ngau .thong-tin-tro-choi p {
+  margin: 0;
+}
+
+.bai-tap-xi-ngau button {
+  font-family: "Pony", serif;
+  color: white;
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}

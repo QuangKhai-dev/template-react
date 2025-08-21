@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Tatum 3 PF",
+    "type": "Basketball Shoes",
+    "listColor": ["#9da39a", "#DB2955", "#B98389"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ab269e93-27c2-47c7-859c-33993862d2a2/JORDAN+TATUM+3+PF.png",
+    "price": 5000000
+  },
+  {
+    "name": "Jordan Spizike Low",
+    "type": "Men's Shoes",
+    "listColor": ["#9df39a", "#DB9955", "#B92389"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b7b7b20c-897d-43d2-84e6-c1623e467925/JORDAN+SPIZIKE+LOW.png",
+    "price": 24000000
+  },
+  {
+    "name": "Jordan Spizike Low SE",
+    "type": "Men's Shoes",
+    "listColor": ["#9da39a", "#DB2955", "#B98389"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/70d29ceb-5b99-4123-ac2b-aa905ab97f50/JORDAN+SPIZIKE+LOW+SE.png",
+    "price": 10000000
+  },
+  {
+    "name": "Jordan Franchise",
+    "type": "Shower Slides",
+    "listColor": ["#92229a", "#a54555", "#B98119"],
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3b67c4f5-f47f-43b2-ab45-93778ad1b9f5/JORDAN+FRANCHISE+SLIDE+SH.png",
+    "price": 2000000
+  }
+]

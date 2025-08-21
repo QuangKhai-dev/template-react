@@ -2,7 +2,7 @@ import React from "react";
 import { Layout, Menu } from "antd";
 import { CardSim } from "lucide-react";
 import Icons from "../../../components/Icons/Icons";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { PATH_APP } from "../../../routes/path";
 
 const { Header: HeaderAntd } = Layout;
@@ -17,7 +17,7 @@ const arrLink = [
     id: 2,
     title: "Laptop",
     icon: <Icons.cardSim />,
-    path: PATH_APP.productDetail
+    path: "/chi-tiet-san-pham"
   },
   {
     id: 3,
@@ -30,10 +30,17 @@ const arrLink = [
     title: "Smartwatch",
     icon: <Icons.cardSim />,
     path: 'smart-watch'
+  },
+  {
+    id: 5,
+    title: "Bài tập lắc xí ngầu",
+    icon: null,
+    path: "/bai-tap-lac-xi-ngau"
   }
 ]
 
 const Header = () => {
+  const location = useLocation()
   return (
     <>
       <HeaderAntd
@@ -56,7 +63,14 @@ const Header = () => {
               // isActive == true || false 
               // path = "/" ==> isActive = true
               // path ="/abc" to="/" ==> isActive = false
-              return isActive ? "active" : ""
+
+              // điều kiện thứ 2 dành cho các dymanic route
+              // nếu như dynamic routes có chứa path trùng với navlink thì cũng sẽ active
+              const activeDynamicRoute = location.pathname.includes(item.path)
+              console.log(activeDynamicRoute)
+              // item.path=chi-tiet-san-pham
+              // location.pathname=chi-tiet-san-pham/100
+              return isActive || activeDynamicRoute ? "active" : ""
             }} key={index} style={{
               display: 'flex',
               alignItems: "center",
@@ -68,7 +82,6 @@ const Header = () => {
               <span>{item.title}</span>
             </NavLink>
           })}
-          <Link></Link>
         </div>
       </HeaderAntd>
     </>
